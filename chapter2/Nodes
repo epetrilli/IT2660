@@ -62,9 +62,4 @@ public class Nodes {
                 return true;
         }
     }
-    public void showAll()
-    {
-        for(int i = 0; i < next; i++)
-            System.out.println(student[i].toString());
-    }
 }
