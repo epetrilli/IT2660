@@ -95,18 +95,21 @@ public class Listing {
             System.out.println("enter age for listing " + (i+1) + ": ");
             age[i] = in.nextInt();
         }
-        for(int j = 0; j < 3; j++) /*Loops through each element in the array of listings and prompts the user to enter the name for that listing */
+        for(int j = 0; j < 3; j++) /*Loops through each element in the array of listings and prompts the user to enter
+        the name for that listing */
         {
             System.out.println("enter name for listing " + (j+1) + ": ");
             name[j] = in.next();
         }
-        System.out.print("the ages for your three listings are: "); /* Loops through each element in the array of listings and prompts the user to enter the age for that listing in reverse order */
+        System.out.print("the ages for your three listings are: "); /* Loops through each element in the array of
+        listings and prompts the user to enter the age for that listing in reverse order */
         for(int i = 2; i >= 0; i--)
         {
             System.out.print(age[i] + " ");
         }
         System.out.println();
-        System.out.print("the names for your three listings are: "); /* Loops through the array of names and outputs each name that the user entered in reverse order */
+        System.out.print("the names for your three listings are: "); /* Loops through the array of names and outputs
+        each name that the user entered in reverse order */
         for(int j = 2; j >= 0; j--)
         {
             System.out.print(name[j] + " ");
