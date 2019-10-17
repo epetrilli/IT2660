@@ -3,19 +3,19 @@ public class Listing {
     public static class Listing1 {
         public static int age1;
         public static String name1;
-        public static int getAge1()
+        public static int getAge1() // Returns the age of the listing to the client code
         {
             return age1;
-        }// Returns the age of the listing to the client code
-        public static String getName1()
+        }
+        public static String getName1() // Returns the age of the listing to the client code
         {
             return name1;
-        }// Returns the age of the listing to the client code
-        public static void setName1 (String n) // Stores the name for the listing  in the object for that listiing
+        }
+        public static void setName1 (String n) // Stores the name for the listing in the object for that listiing
         {
             name1 = "";
         }
-        public static void setAge1 (String a) // Stores the weight for the listing  in the object for that listiing
+        public static void setAge1 (String a) // Stores the weight for the listing in the object for that listiing
         {
             Integer.toString(age1);
             age1 = 0;
@@ -95,18 +95,18 @@ public class Listing {
             System.out.println("enter age for listing " + (i+1) + ": ");
             age[i] = in.nextInt();
         }
-        for(int j = 0; j < 3; j++) // Loops through each element in the array of listings and prompts the user to enter the name for that listing
+        for(int j = 0; j < 3; j++) /*Loops through each element in the array of listings and prompts the user to enter the name for that listing */
         {
             System.out.println("enter name for listing " + (j+1) + ": ");
             name[j] = in.next();
         }
-        System.out.print("the ages for your three listings are: "); // Loops through each element in the array of listings and prompts the user to enter the age for that listing in reverse order
+        System.out.print("the ages for your three listings are: "); /* Loops through each element in the array of listings and prompts the user to enter the age for that listing in reverse order */
         for(int i = 2; i >= 0; i--)
         {
             System.out.print(age[i] + " ");
         }
         System.out.println();
-        System.out.print("the names for your three listings are: ");// Loops through the array of names and outputs each name that the user entered in reverse order
+        System.out.print("the names for your three listings are: "); /* Loops through the array of names and outputs each name that the user entered in reverse order */
         for(int j = 2; j >= 0; j--)
         {
             System.out.print(name[j] + " ");
