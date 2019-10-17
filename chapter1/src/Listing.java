@@ -6,26 +6,26 @@ public class Listing {
         public static int getAge1()
         {
             return age1;
-        }
+        }// Returns the age of the listing to the client code
         public static String getName1()
         {
             return name1;
-        }
-        public static void setName1 (String n)
+        }// Returns the age of the listing to the client code
+        public static void setName1 (String n) // Stores the name for the listing  in the object for that listiing
         {
             name1 = "";
         }
-        public static void setAge1 (String a)
+        public static void setAge1 (String a) // Stores the weight for the listing  in the object for that listiing
         {
             Integer.toString(age1);
             age1 = 0;
         }
-        public static String toString1()
+        public static String toString1() // Returns the age and name for this listing
         {
             return("this person's age is " + age1 +
                     "\nand their name is: " + name1);
         }
-        Listing[] listings = new Listing[3];
+        Listing[] listings = new Listing[3];// String array of size 3 to store the age and name for this listing
     }
     public static class Listing2
     {
@@ -88,25 +88,25 @@ public class Listing {
     {
 
         Scanner in = new Scanner(System.in);
-        int[] age = new int[3];
-        String[] name = new String[3];
-        for(int i = 0; i < 3; i++)
+        int[] age = new int[3]; // Int array of size 3 to store ages for the three listings
+        String[] name = new String[3]; // String array of size three to store ages for the three listings
+        for(int i = 0; i < 3; i++) // Loops through each listing and prompts the user to enter the age for that listing
         {
             System.out.println("enter age for listing " + (i+1) + ": ");
             age[i] = in.nextInt();
         }
-        for(int j = 0; j < 3; j++)
+        for(int j = 0; j < 3; j++) // Loops through each element in the array of listings and prompts the user to enter the name for that listing
         {
             System.out.println("enter name for listing " + (j+1) + ": ");
             name[j] = in.next();
         }
-        System.out.print("the ages for your three listings are: ");
+        System.out.print("the ages for your three listings are: "); // Loops through each element in the array of listings and prompts the user to enter the age for that listing in reverse order
         for(int i = 2; i >= 0; i--)
         {
             System.out.print(age[i] + " ");
         }
         System.out.println();
-        System.out.print("the names for your three listings are: ");
+        System.out.print("the names for your three listings are: ");// Loops through the array of names and outputs each name that the user entered in reverse order
         for(int j = 2; j >= 0; j--)
         {
             System.out.print(name[j] + " ");
@@ -117,6 +117,6 @@ public class Listing {
     public static void main(String[] args)
     {
         input();
-    }
+    }// Driver class that runs the program
 }
 
