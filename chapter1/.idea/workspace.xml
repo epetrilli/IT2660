@@ -13,6 +13,9 @@
   </component>
   <component name="ProjectId" id="1RffnJWui7eVkNVM1bqXWnilNfW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter2/src/StudentListings/Nodes.java" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -25,7 +28,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Listing">
     <configuration name="Listing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Listing" />
       <module name="chapter1" />
@@ -33,9 +36,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainNodes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../chapter2/src/StudentListings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StudentListing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Listing" />
+      <item itemvalue="Application.MainNodes" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Listing" />
+        <item itemvalue="Application.MainNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -57,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

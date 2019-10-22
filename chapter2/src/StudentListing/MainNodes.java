@@ -1,9 +1,11 @@
-package StudentListing
-public class MainNodes
-{
-    public static void main(String[] args) {
+package StudentListing;
+
+public class MainNodes {
+        public static void main(String[]args)
+        {
         Nodes test = new Nodes();
         StudentListing temp;
+        // Test of the constructor
         StudentListing adam = new StudentListing("Adam", "4343", "3.0");
         StudentListing carla = new StudentListing("Carla", "5656", "3.5");
         StudentListing frank = new StudentListing("Frank", "9898", "2.5");
@@ -20,12 +22,12 @@ public class MainNodes
         System.out.println(test.delete("Adam"));
         System.out.println(test.fetch("Adam"));
         System.out.println("Test of the update method");
-        System.out.println(test.update("Carla", frank));
+        System.out.println(test.update("Frank", carla));
         test.insert(adam);
-        System.out.println(test.update("Frank", adam));
-        System.out.println(test.fetch("Carla"));
+        System.out.println(test.update("Adam", frank));
+        System.out.println(test.fetch("Adam"));
         temp = test.fetch("Frank");
         System.out.println(temp.toString());
         System.exit(0);
     }
-}
+    }

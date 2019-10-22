@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf06a4a-1432-45a5-b2e6-365246873c04" name="Default Changelist" comment="" />
+    <list default="true" id="b6887900-2246-4571-993b-2d224da81512" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,21 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1RVcemlmnmfcpbIpNdHJPHV9rMp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="chapter2" />
-      <recent name="StudentListing" />
-      <recent name="" />
-    </key>
-  </component>
+  <component name="ProjectId" id="1SYYpUpb7hnC8hZwsV6buHzpCJB" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -43,25 +29,35 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MainNodes" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-12" />
-      <option name="MAIN_CLASS_NAME" value="StudentListings.MainNodes" />
+    <configuration name="MainNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentListing.MainNodes" />
       <module name="chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StudentListing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainNodes" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SvnConfiguration" cleanupOnStartRun="true">
+  <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3bf06a4a-1432-45a5-b2e6-365246873c04" name="Default Changelist" comment="" />
-      <created>1569755801501</created>
+      <changelist id="b6887900-2246-4571-993b-2d224da81512" name="Default Changelist" comment="" />
+      <created>1571742178807</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569755801501</updated>
+      <updated>1571742178807</updated>
     </task>
     <servers />
   </component>

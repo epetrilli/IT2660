@@ -1,13 +1,9 @@
-package StudentListings;
-
+package StudentListing;
 import javax.swing.*;
 import java.util.Scanner;
-
 import static javax.swing.JOptionPane.showInputDialog;
-
 public class StudentListing {
-
-        private String name;
+        private String name; //The key field used to identify the student in the array
         private String id;
         private String gpa;
 
@@ -19,8 +15,8 @@ public class StudentListing {
 
         public String toString() {
             return ("Name is " + name +
-                    "\n ID is " + id +
-                    "\n GPA is " + gpa + "\n");
+                    "\nID is " + id +
+                    "\nGPA is " + gpa + "\n");
         }
 
         public StudentListing deepCopy() {
@@ -37,4 +33,5 @@ public class StudentListing {
             id = JOptionPane.showInputDialog("Enter an ID");
             gpa = JOptionPane.showInputDialog("Enter a GPA");
         }
-}
+    }
+
