@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65f4a675-737a-44f9-bb06-10c2a3386e1b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RsyZu1iRLtVqdx7cAaLDuTnoyo" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/IT2660/chapter2/src/StudentListings/MainNodes.java" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainStack">
+    <configuration name="MainNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/Desktop/IT2660/chapter2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StudentListings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.MainQueue" />
+      <module name="chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.MainStack" />
+      <module name="chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainNodes" />
+      <item itemvalue="Application.MainStack" />
+      <item itemvalue="Application.MainQueue" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainStack" />
+        <item itemvalue="Application.MainQueue" />
+        <item itemvalue="Application.MainNodes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65f4a675-737a-44f9-bb06-10c2a3386e1b" name="Default Changelist" comment="" />
+      <created>1570470156483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570470156483</updated>
+    </task>
+    <servers />
+  </component>
+</project>
