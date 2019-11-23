@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8945e086-09dc-4a00-a983-6d019eac126e" name="Default Changelist" comment="" />
+    <list default="true" id="fec87717-46b1-4981-b5a6-5aaaee1f281f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1T9EntLI5nftxrYWVBrNpxzNWhG" />
+  <component name="ProjectId" id="1TiA5qE0M4OM6Ex1I0EpnNnwOvd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -32,26 +32,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomNumbers">
-    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="topdownmergesort.RandomNumbers" />
-      <module name="chapter6" />
+  <component name="RunManager">
+    <configuration name="MainBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter7.MainBinaryTree" />
+      <module name="chapter7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="topdownmergesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopDownMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="topdownmergesort.TopDownMergeSort" />
-      <module name="chapter6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="topdownmergesort.*" />
+          <option name="PATTERN" value="chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,8 +48,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomNumbers" />
-        <item itemvalue="Application.TopDownMergeSort" />
+        <item itemvalue="Application.MainBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -71,11 +57,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8945e086-09dc-4a00-a983-6d019eac126e" name="Default Changelist" comment="" />
-      <created>1572864080952</created>
+      <changelist id="fec87717-46b1-4981-b5a6-5aaaee1f281f" name="Default Changelist" comment="" />
+      <created>1573932361820</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572864080952</updated>
+      <updated>1573932361820</updated>
     </task>
     <servers />
   </component>
