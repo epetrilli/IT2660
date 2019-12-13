@@ -10,29 +10,29 @@ public class Nodes {
         {
 
         }
-        public int getNodes ()
+        public int getNodes()
         {
             return nodeValue;
         }
-        public int getNodes ( int value)
+        public int getNodes (int value)
         {
             return nodeValue = value;
         }
-        public Nodes deepCopy ()
+        public Nodes deepCopy()
         {
             Nodes clone = new Nodes(nodeValue);
             return clone;
         }
-        public boolean getPushed ()
+        public boolean getPushed()
         {
             return pushed;
         }
-        public void setPushed ( boolean value)
+        public void setPushed(boolean value)
         {
             pushed = value;
         }
 
-        public void visit ( int vertexNumber)
+        public void visit(int vertexNumber)
         {
             System.out.println(this);
         }
